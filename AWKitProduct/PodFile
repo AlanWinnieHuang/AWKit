@@ -1,0 +1,8 @@
+target 'AWKitProduct' do
+platform :ios, '9.0'
+pod 'AFNetworking'
+pod 'SDWebImage', '4.1.0'
+pod 'Masonry'
+end
+
+
