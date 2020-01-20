@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183E048D23A73438002F11C0 /* FatherFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E048C23A73438002F11C0 /* FatherFactory.m */; };
+		183E049023A7345B002F11C0 /* BannerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E048F23A7345B002F11C0 /* BannerFactory.m */; };
+		183E049323A73474002F11C0 /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E049223A73474002F11C0 /* AppleFactory.m */; };
+		183E049623A739E6002F11C0 /* FatherFactoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E049523A739E6002F11C0 /* FatherFactoryTableViewCell.m */; };
+		183E049F23A73B7A002F11C0 /* BannerFactoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E049E23A73B7A002F11C0 /* BannerFactoryCell.m */; };
+		183E04A223A73B86002F11C0 /* AppleFactoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E04A123A73B86002F11C0 /* AppleFactoryCell.m */; };
+		183E04A523A73C1E002F11C0 /* FactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E04A423A73C1E002F11C0 /* FactoryViewController.m */; };
 		18C9CA99239A3C5600A09BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C9CA97239A3C5600A09BA4 /* Main.storyboard */; };
 		18C9CA9E239A3C5800A09BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C9CA9C239A3C5800A09BA4 /* LaunchScreen.storyboard */; };
 		18C9CACA239A3D1D00A09BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C9CAC7239A3D1D00A09BA4 /* Assets.xcassets */; };
@@ -14,11 +21,27 @@
 		18C9CACD239A3EC700A09BA4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C9CAC9239A3D1D00A09BA4 /* Info.plist */; };
 		18C9CAD1239A403F00A09BA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C9CACF239A403F00A09BA4 /* ViewController.m */; };
 		18C9CAD2239A403F00A09BA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C9CAD0239A403F00A09BA4 /* main.m */; };
+		18C9CADF239F82D200A09BA4 /* HikTelescopicTableHeadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C9CADE239F82D200A09BA4 /* HikTelescopicTableHeadTool.m */; };
+		18C9CAE323A0BAB100A09BA4 /* HikVideoEditTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C9CAE223A0BAB100A09BA4 /* HikVideoEditTool.m */; };
 		A76493BA224C1CC869BE9C55 /* libPods-AWKitProduct.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7A9C74F8D1323D5D7BB57C /* libPods-AWKitProduct.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08198A4089478112F67394C0 /* Pods-AWKitProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWKitProduct.debug.xcconfig"; path = "Target Support Files/Pods-AWKitProduct/Pods-AWKitProduct.debug.xcconfig"; sourceTree = "<group>"; };
+		183E048B23A73438002F11C0 /* FatherFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FatherFactory.h; sourceTree = "<group>"; };
+		183E048C23A73438002F11C0 /* FatherFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FatherFactory.m; sourceTree = "<group>"; };
+		183E048E23A7345B002F11C0 /* BannerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerFactory.h; sourceTree = "<group>"; };
+		183E048F23A7345B002F11C0 /* BannerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerFactory.m; sourceTree = "<group>"; };
+		183E049123A73474002F11C0 /* AppleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleFactory.h; sourceTree = "<group>"; };
+		183E049223A73474002F11C0 /* AppleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleFactory.m; sourceTree = "<group>"; };
+		183E049423A739E6002F11C0 /* FatherFactoryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FatherFactoryTableViewCell.h; sourceTree = "<group>"; };
+		183E049523A739E6002F11C0 /* FatherFactoryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FatherFactoryTableViewCell.m; sourceTree = "<group>"; };
+		183E049D23A73B7A002F11C0 /* BannerFactoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerFactoryCell.h; sourceTree = "<group>"; };
+		183E049E23A73B7A002F11C0 /* BannerFactoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerFactoryCell.m; sourceTree = "<group>"; };
+		183E04A023A73B86002F11C0 /* AppleFactoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleFactoryCell.h; sourceTree = "<group>"; };
+		183E04A123A73B86002F11C0 /* AppleFactoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleFactoryCell.m; sourceTree = "<group>"; };
+		183E04A323A73C1E002F11C0 /* FactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryViewController.h; sourceTree = "<group>"; };
+		183E04A423A73C1E002F11C0 /* FactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
 		18C9CA8B239A3C5600A09BA4 /* AWKitProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWKitProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C9CA98239A3C5600A09BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18C9CA9D239A3C5800A09BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,6 +52,10 @@
 		18C9CACE239A403F00A09BA4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18C9CACF239A403F00A09BA4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18C9CAD0239A403F00A09BA4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C9CADD239F82D200A09BA4 /* HikTelescopicTableHeadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HikTelescopicTableHeadTool.h; sourceTree = "<group>"; };
+		18C9CADE239F82D200A09BA4 /* HikTelescopicTableHeadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HikTelescopicTableHeadTool.m; sourceTree = "<group>"; };
+		18C9CAE123A0BAB100A09BA4 /* HikVideoEditTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HikVideoEditTool.h; sourceTree = "<group>"; };
+		18C9CAE223A0BAB100A09BA4 /* HikVideoEditTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HikVideoEditTool.m; sourceTree = "<group>"; };
 		B041A30E0077E9393A69736D /* Pods-AWKitProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWKitProduct.release.xcconfig"; path = "Target Support Files/Pods-AWKitProduct/Pods-AWKitProduct.release.xcconfig"; sourceTree = "<group>"; };
 		EB7A9C74F8D1323D5D7BB57C /* libPods-AWKitProduct.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWKitProduct.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -45,6 +72,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183E048623A717BA002F11C0 /* MainClass */ = {
+			isa = PBXGroup;
+			children = (
+				183E048A23A73403002F11C0 /* Factory */,
+				183E048923A717E6002F11C0 /* Model */,
+				183E048823A717D3002F11C0 /* View */,
+				183E048723A717C4002F11C0 /* Controller */,
+			);
+			path = MainClass;
+			sourceTree = "<group>";
+		};
+		183E048723A717C4002F11C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				183E04A323A73C1E002F11C0 /* FactoryViewController.h */,
+				183E04A423A73C1E002F11C0 /* FactoryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		183E048823A717D3002F11C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				183E049423A739E6002F11C0 /* FatherFactoryTableViewCell.h */,
+				183E049523A739E6002F11C0 /* FatherFactoryTableViewCell.m */,
+				183E049D23A73B7A002F11C0 /* BannerFactoryCell.h */,
+				183E049E23A73B7A002F11C0 /* BannerFactoryCell.m */,
+				183E04A023A73B86002F11C0 /* AppleFactoryCell.h */,
+				183E04A123A73B86002F11C0 /* AppleFactoryCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		183E048923A717E6002F11C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		183E048A23A73403002F11C0 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				183E048B23A73438002F11C0 /* FatherFactory.h */,
+				183E048C23A73438002F11C0 /* FatherFactory.m */,
+				183E048E23A7345B002F11C0 /* BannerFactory.h */,
+				183E048F23A7345B002F11C0 /* BannerFactory.m */,
+				183E049123A73474002F11C0 /* AppleFactory.h */,
+				183E049223A73474002F11C0 /* AppleFactory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		18C9CA82239A3C5600A09BA4 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +146,8 @@
 		18C9CA8D239A3C5600A09BA4 /* AWKitProduct */ = {
 			isa = PBXGroup;
 			children = (
+				183E048623A717BA002F11C0 /* MainClass */,
+				18C9CAD8239F6DC000A09BA4 /* CommentTool */,
 				18C9CAC5239A3D1D00A09BA4 /* System */,
 				18C9CA97239A3C5600A09BA4 /* Main.storyboard */,
 				18C9CA9C239A3C5800A09BA4 /* LaunchScreen.storyboard */,
@@ -87,13 +169,39 @@
 			path = System;
 			sourceTree = "<group>";
 		};
+		18C9CAD8239F6DC000A09BA4 /* CommentTool */ = {
+			isa = PBXGroup;
+			children = (
+				18C9CAE023A0BA9C00A09BA4 /* VideoEditTool */,
+				18C9CAD9239F6DC000A09BA4 /* TelescopicTableTool */,
+			);
+			path = CommentTool;
+			sourceTree = "<group>";
+		};
+		18C9CAD9239F6DC000A09BA4 /* TelescopicTableTool */ = {
+			isa = PBXGroup;
+			children = (
+				18C9CADD239F82D200A09BA4 /* HikTelescopicTableHeadTool.h */,
+				18C9CADE239F82D200A09BA4 /* HikTelescopicTableHeadTool.m */,
+			);
+			path = TelescopicTableTool;
+			sourceTree = "<group>";
+		};
+		18C9CAE023A0BA9C00A09BA4 /* VideoEditTool */ = {
+			isa = PBXGroup;
+			children = (
+				18C9CAE123A0BAB100A09BA4 /* HikVideoEditTool.h */,
+				18C9CAE223A0BAB100A09BA4 /* HikVideoEditTool.m */,
+			);
+			path = VideoEditTool;
+			sourceTree = "<group>";
+		};
 		517F261621D07B037A6116D5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				08198A4089478112F67394C0 /* Pods-AWKitProduct.debug.xcconfig */,
 				B041A30E0077E9393A69736D /* Pods-AWKitProduct.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -202,8 +310,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183E048D23A73438002F11C0 /* FatherFactory.m in Sources */,
+				183E04A523A73C1E002F11C0 /* FactoryViewController.m in Sources */,
 				18C9CAD1239A403F00A09BA4 /* ViewController.m in Sources */,
+				183E049023A7345B002F11C0 /* BannerFactory.m in Sources */,
+				183E04A223A73B86002F11C0 /* AppleFactoryCell.m in Sources */,
+				183E049323A73474002F11C0 /* AppleFactory.m in Sources */,
+				183E049623A739E6002F11C0 /* FatherFactoryTableViewCell.m in Sources */,
+				18C9CAE323A0BAB100A09BA4 /* HikVideoEditTool.m in Sources */,
+				183E049F23A73B7A002F11C0 /* BannerFactoryCell.m in Sources */,
 				18C9CAD2239A403F00A09BA4 /* main.m in Sources */,
+				18C9CADF239F82D200A09BA4 /* HikTelescopicTableHeadTool.m in Sources */,
 				18C9CACB239A3D1D00A09BA4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
